@@ -6,7 +6,7 @@ import { Document, Page, Text, View, StyleSheet, PDFDownloadLink } from '@react-
 
 //import {Route, Link, Routes, useParams} from 'react-router-dom';
 
-export default function AllAdmin(){
+export default function AllAdmin(){ //default
 
     
     const [Admin,setAdmin] = useState([]);
